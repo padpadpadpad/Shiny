@@ -32,3 +32,6 @@ git pull https://github.com/padpadpadpad/Shiny.git
 library(shiny)
 setwd("~/Shiny_example")
 runApp()
+```
+
+Once in click one of the boxes at the top for one of the curves and away you go!
