@@ -23,7 +23,7 @@ Or if you want you can clone the repository and run the app using "runApp()"
 # Firstly in command line, pull the repository into a desired destination using git
 # Our example uses ~/Shiny_example
 
-cd Shiny
+cd Shiny_example
 git pull https://github.com/padpadpadpad/Shiny.git
 
 # this should download the files necessary to run the app locally in R
