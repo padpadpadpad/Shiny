@@ -12,6 +12,11 @@ header <- dashboardHeader(
 body <- dashboardBody(
   fluidRow(
     column(width = 8,
+           box(width = NULL, title = 'Introduction',
+               collapsible = TRUE,
+               solidHeader = TRUE,
+               status = 'success',
+               p("Since coming back to running after a long-term injury, I took up running a weekly parkrun. My weekly parkrun is Trelissick in South Cornwall and it is rather hilly. However, there appears to be nowhere on the internet where you can compare the different parkrun profiles to get a handle on how hilly YOUR parkrun is! This is my attempt at doing that. All the data was collected using the Strava API using the package rStrava. Hope you enjoy it. Currently I have only managed to get the parkruns from A-M.")),
            box(width = NULL, solidHeader = TRUE,
                leafletOutput("map", height = 610)
            )),

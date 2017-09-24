@@ -5,10 +5,10 @@ library(dplyr)
 library(ggplot2)
 
 # read in data
-leaflet_df <- readRDS('../data/leaflet_df.rds')
+leaflet_df <- readRDS('data/leaflet_df.rds')
 
 # change names so there are no spaces parkruns
-lat_lon <- readRDS('../data/latlon_df.rds')
+lat_lon <- readRDS('data/latlon_df.rds')
 
 server <- function(input, output){
   
